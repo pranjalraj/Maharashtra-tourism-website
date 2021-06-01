@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Maharashtra Tourism Website</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link href="./bundles/css/style_new.css" rel="stylesheet" type="text/css" media="all">
+  <link href="./style_main.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    function active(icon, features) {
+
+      document.getElementById("watersports").style.display = "none";
+      document.getElementById("ropeway").style.display = "none";
+      document.getElementById("wildlife").style.display = "none";
+      document.getElementById("camping").style.display = "none";
+      document.getElementById("calming").style.display = "none";
+      document.getElementById("aerial").style.display = "none";
+
+      features.style.display = "block";
+
+      icon.style.background = "rgba(0, 0, 0, 0.6)";
+    }
+
+    function display(photo) {
+      photo.style.opacity = "0.6";
+      document.getElementsByClassName("text")[0].innerHTML = "Maharashtra";
+    }
+
+    function notdisplay(photo) {
+      photo.style.opacity = "1";
+    }
+
+    function display_icon(icon, feature) {
+      if (feature.style.display === "none")
+        icon.style.background = "rgba(255, 255, 255, 0.2)";
+    }
+
+    function notdisplay_icon(icon, feature) {
+      if (feature.style.display === "none")
+        icon.style.background = "rgba(0, 0, 0, 0.0)";
+    }
+  </script>
+</head>
+
+<body>
+
+
+  <header class="header ">
+    <nav class="custom-navbar">
+      <a class="navbar-brand" href="../index.php">
+        <img src="./logo.png" alt="logo">
+      </a>
+      <button class="menu-icon" type="button">
+        <img src="images/menu-icon.png">
+      </button>
+      <div class="collapse-menu">
+        <div class="close-rt-pnl"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <ul class="navbar-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Explore <span class="sr-only">(current)</span>
+              <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            </a>
+
+            <div class="multi-drodown">
+              <div class="row">
+                <div class="col-sm-3">
+                  <h3>Religion & Temples </h3>
+                  <ul class="multi-list">
+                    <li><a href="../siddhivinayak.php" class="submenulinks">Siddhivinayak Temple</a></li>
+                    <li><a href="../bhimashankar.php" class="submenulinks">Bhimashankar Temple</a></li>
+                    <li><a href="#" class="submenulinks">Haji Ali Dargah</a></li>
+                    <li><a href="#" class="submenulinks">Mount Mary Church</a></li>
+                    <li><a href="d#" class="submenulinks">Mahalakshmi</a></li>
+                    <li><a href="#" class="submenulinks">Shirdi Saibaba</a></li>
+                    <li><a href="d#" class="submenulinks">Shani Shinganapur</a></li>
+                    <li><a href="#" class="submenulinks">Trimbakeshwar</a></li>
+                    <li><a href="#" class="submenulinks">PandharpurTrimbakeshwar</a></li>
+                    <li><a href="#" class="submenulinks">Paithan</a></li>
+                  </ul>
+                  <a href="explore.php" class="drp-read-btn submenulinks viewall">View All</a>
+                </div>
+                <div class="col-sm-3">
+                  <h3>Forts</h3>
+                  <ul class="multi-list">
+                    <li><a href="#" class="submenulinks">Sindhudurg</a></li>
+                    <li><a href="#" class="submenulinks">Shivneri</a></li>
+                    <li><a href="#" class="submenulinks">Daulatabad (Devgiri)</a></li>
+                    <li><a href="#php" class="submenulinks">Rajmachi</a></li>
+                    <li><a href="#php" class="submenulinks">Vasai</a></li>
+                    <li><a href="#" class="submenulinks">Talgad</a></li>
+                    <li><a href="#php" class="submenulinks">Chandarpur</a></li>
+                    <li><a href="#php" class="submenulinks">Pratapgad</a></li>
+
+                  </ul>
+                  <a href="explore.php" class="drp-read-btn submenulinks viewall">View All</a>
+                </div>
+                <div class="col-sm-3">
+                  <h3>Heritage</h3>
+                  <ul class="multi-list">
+                    <li><a href="destination-Bhimashankar.php" class="submenulinks">Bhimashankar</a></li>
+                    <li><a href="destination-LonarCrater.php" class="submenulinks">Lonar Crater</a></li>
+                    <li><a href="destination-Elephanta.php" class="submenulinks">Elephanta</a></li>
+                    <li><a href="destination-ellore.php" class="submenulinks">Ellora</a></li>
+                    <li><a href="destination-Ajanta.php" class="submenulinks">Ajanta</a></li>
+                    <li><a href="destination-AgaKhanPalace.php" class="submenulinks">Aga Khan Palace</a></li>
+                    <li><a href="destination-KaasPathar.php" class="submenulinks">Kaas Pathar</a></li>
+                    <li><a href="destination-cst.php" class="submenulinks">Chhatrapati Shivaji Terminus</a></li>
+                  </ul>
+                  <a href="explore.php" class="drp-read-btn submenulinks viewall">View All</a>
+                </div>
+                <div class="col-sm-3">
+                  <h3>Wildlife</h3>
+                  <ul class="multi-list">
+                    <li><a href="destination-Tadoba.php" class="submenulinks">Tadoba Andhari Tiger</a></li>
+                    <li><a href="destination-Chikkaldara.php" class="submenulinks">Chikkaldara</a></li>
+                    <li><a href="destination-Pench.php" class="submenulinks">The Pench-The Pandit</a></li>
+                    <li><a href="destination-Karnala.php" class="submenulinks">Karnala Bird Sanctuary</a></li>
+                    <li><a href="destination-Melghat.php" class="submenulinks">Melghat Tiger Reserve</a></li>
+                    <li><a href="destination-Tipeshwar.php" class="submenulinks">Tipeshwar</a></li>
+                    <li><a href="destination-Rehekuri.php" class="submenulinks">Rehekuri Blackbuck</a></li>
+                    <li><a href="destination-Sagreshwar.php" class="submenulinks">Sagreshwar</a></li>
+                  </ul>
+                  <a href="explore.php" class="drp-read-btn submenulinks viewall">View All</a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experiences
+              <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            </a>
+            <div class="multi-drodown single_sub_menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-list">
+                    <li><a href="adventure.php">Adventure</a></li>
+                    <li><a href="../culture.php">Culture</a></li>
+                    <li><a href="../cuisine.php">Cuisines</a></li>
+                    <li><a href="../festival.php">Festivals and Events</a></li>
+                  </ul>
+                </div>
+
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plan your Itinerary
+              <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            </a>
+            <div class="multi-drodown planning_sub_menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-list">
+                    <li><a href="accomodation.php">Accomodations</a></li>
+                    <li><a href="itinerary.php">Itineraries</a></li>
+                    <li><a href="travel-agents.php">Travel Agents & Guides</a></li>
+                  </ul>
+                </div>
+
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bloglisting.php">Blogs</a>
+          </li>
+          <li class="nav-item search-item">
+            <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i>Search</a>
+          </li>
+          <li class="nav-item loginmenudesktop">
+            <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+            <div class="multi-drodown account_sub_menu">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="multi-list">
+
+                    <li><a href="login.php">Members Login</a></li>
+                    <li><a href="signup.php">New User? Register</a></li>
+                  </ul>
+                </div>
+
+              </div>
+          </li>
+          <li class="nav-item loginmenumobile">
+            <a class="nav-link" href="login.php">Members Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="background-image"></div>
+    <div class="hero-content-area">
+      <h1>Adventure</h1>
+      <h3>Unmissable Adventure Tours in Maharashtra</h3>
+
+    </div>
+  </section>
+
+  <section class="destinations">
+    <h3 class="title">Some of our destinations:</h3>
+    <p>Planning on visiting Maharashtra? Interested in Adventure? Come along with us on one of our adventure sports. Here are some pictures from people who have had elevated experiences in Maharashtra.</p>
+    <hr>
+
+    <ul class="grid">
+      <li class="small" style="background-image: url(https://www.raigadropeway.com/images/Pic-2.jpg);" onmouseover="display(this)" onmouseout="notdisplay(this)"></li>
+      <li class="large" style="background-image: url(https://dmgupcwbwy0wl.cloudfront.net/system/images/000/187/820/63c6afc2b748d1416870817ff941108d/original/0dc42b7a7ea6418291f5288caad9abe5.jpg?1560621944);" onmouseover="display(this)"
+        onmouseout="notdisplay(this)"></li>
+      <li class="large" style="background-image: url(https://www.weekendthrill.com/wp-content/uploads/2017/10/scuba-diving-tarkarl-Malvan.jpg);" onmouseover="display(this)" onmouseout="notdisplay(this)"></li>
+      <li class="small" style="background-image: url(https://www.everoutdoor.in/wp-content/uploads/2020/02/Maharashtra-Paragliding-1024x576.jpg);" onmouseover="display(this)" onmouseout="notdisplay(this)"></li>
+    </ul>
+  </section>
+
+
+
+  <!-- tour-info -->
+  <section class="store-info py-lg-4 py-md-4 py-sm-3 py-3 header11">
+    <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+      <h3 class="title text-center mb-2 clr editContent">Find Your Adventure</h3>
+      <div class="title-w3ls-text text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+        <h6 class="editContent">Adventure Tour Type</h6>
+      </div>
+      <div class="row text-center">
+        <div class="col-lg-2 col-md-4 col-sm-6 my-3 booking-choose editContent">
+          <div class="adventure-tour-wthree editContent" name="1" style="background:rgba(0, 0, 0, 0.6)" onclick="active(this,watersports)" onmouseover="display_icon(this,watersports)" onmouseout="notdisplay_icon(this,watersports)"
+            style="outline: none; outline-offset: -2px; cursor: inherit; " contenteditable="true" spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="7"
+            medium-editor-index="ecfffb0a-cd64-d0cd-e213-59b624e5bea8" data-placeholder="Type your text" data-medium-focused="true">
+            <span class="fa fa-ship" aria-hidden="true" style="outline: none; cursor: inherit;"></span>
+            <h4 class="mt-lg-3 mt-2 editContent" style="outline: none; cursor: inherit;">Water Sport</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 my-3 booking-choose editContent">
+          <div class="adventure-tour-wthree editContent" name="2" onclick="active(this, ropeway)" onmouseover="display_icon(this, ropeway)" onmouseout="notdisplay_icon(this, ropeway)">
+            <span class="fa fa-shopping-bag" aria-hidden="true" style="outline: none; cursor: inherit;"></span>
+            <h4 class="mt-lg-3 mt-2 editContent" style="outline: none; cursor: inherit;">Ropeway</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 my-3 booking-choose editContent">
+          <div class="adventure-tour-wthree editContent" name="3" onclick="active(this, wildlife)" onmouseover="display_icon(this, wildlife)" onmouseout="notdisplay_icon(this, wildlife)">
+            <span class="fa fa-paw" aria-hidden="true"></span>
+            <h4 class="mt-lg-3 mt-2 editContent" style="outline: none; cursor: inherit;">Wildlife</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 my-3 booking-choose editContent">
+          <div class="adventure-tour-wthree editContent" name="4" onclick="active(this, camping)" onmouseover="display_icon(this, camping)" onmouseout="notdisplay_icon(this, camping)">
+            <span class="fa fa-fire" aria-hidden="true" style="outline: none; cursor: inherit;"></span>
+            <h4 class="mt-lg-3 mt-2 editContent">Camping</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 my-3 booking-choose editContent">
+          <div class="adventure-tour-wthree editContent" name="5" onclick="active(this, calming)" onmouseover="display_icon(this, calming)" onmouseout="notdisplay_icon(this, calming)">
+            <span class="fa fa-area-chart" aria-hidden="true" style="outline: none; cursor: inherit;"></span>
+            <h4 class="mt-lg-3 mt-2 editContent" style="outline: none; cursor: inherit;">Calming</h4>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 my-3 booking-choose editContent">
+          <div class="adventure-tour-wthree editContent" name="6" onclick="active(this, aerial)" onmouseover="display_icon(this, aerial)" onmouseout="notdisplay_icon(this, aerial)">
+            <span class="fa fa-paper-plane-o" aria-hidden="true" style="outline: none; cursor: inherit;"></span>
+            <h4 class="mt-lg-3 mt-2 editContent" style="outline: none; cursor: inherit;">Aerial sports</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//tour-info -->
+
+
+
+
+  <section class="destinations">
+    <div class="tab-content cultures-tab-content" id="watersports" name="watersports">
+      <div id="music" class="container tab-pane active">
+
+
+
+        <!-- First Box -->
+        <div class="row align-items-center mb-70">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pr-100">
+                <h3>Kundalika</h3>
+                <p>If a summer trip to Maharashtra is on your mind, then indulge in some of the best water sports activities to refresh yourself from within. With a plethora of options ranging from the speed bo ...</p>
+                <a href="https://www.thrillophilia.com/cities/kolad/tours" class="more-culture-btn">
+                  <span></span>
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="http://www.mptourism.com/web/image/catalog/water-sports.jpg" class="animate" data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Box End -->
+        <br>
+        <br>
+        <!-- Second Box -->
+        <div class="row align-items-center mb-70 flex-row-reverse">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pl-100">
+                <h3>Snorkelling and Scuba Diving</h3>
+                <p>Where will your next scuba diving trip take you? There’s a world of underwater adventures out there waiting for you. Scuba diving and traveling go hand-in-hand. Your next trip or liveaboard experience could lead you to your new
+                  favorite dive site, best wreck dive, most memorable wall dive...</p>
+                <a href="https://www.thrillophilia.com/states/maharashtra/tags/scuba-diving" class="more-culture-btn">
+                  <span></span>
+
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://getmyboat-user-images1.imgix.net/images/58bea162eacf1/boat-rentals-pune-maharashtra-processed.jpg?auto=format%2Ccompress&fit=clip&h=None&ixlib=react-9.0.2&q=80&w=None&q=50&lossless=true&w=716&h=448" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Box End -->
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="tab-content cultures-tab-content" id="ropeway" name="ropeway" style="display:none;">
+      <div id="music" class="container tab-pane active">
+
+
+
+        <!-- First Box -->
+        <div class="row align-items-center mb-70">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pr-100">
+                <h3>Ropeway</h3>
+                <p>"Fort Raigad is much more than a mere tourist spot. It is a sacred place of pilgrimage, which has left an imprint of the grand vision of Hindavi Swarajya as cherished by Chhatrapati Shivaji Maharaj.“ When...</p>
+                <a href="https://www.raigadropeway.com/" class="more-culture-btn">
+                  <span></span>
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://www.raigadropeway.com/images/Pic-3.jpg" class="animate" data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Box End -->
+      </div>
+    </div>
+
+
+
+
+
+    <div class="tab-content cultures-tab-content" id="wildlife" name="wildlife" style="display:none;">
+      <div id="music" class="container tab-pane active">
+
+
+
+        <!-- First Box -->
+        <div class="row align-items-center mb-70">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pr-100">
+                <h3>Wildlife Sanctuary</h3>
+                <p>India’s financial hub and business centre, Maharashtra is the country’s second most populous state, and has some of the country’s most stunning attractions. The geographical landscape of Maharashtra is diverse, from rugged
+                  mountains to lush green forests, Maharashtra has it all. But what maharashtra has in abundance is the wildlife ...</p>
+                <a href="https://www.thrillophilia.com/states/maharashtra/tags/wildlife" class="more-culture-btn">
+                  <span></span>
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://images.thrillophilia.com/image/upload/s--yH14wPx2--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/242/311/original/1588060057_1.JPG.jpg?1588060057" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Box End -->
+        <br>
+        <br>
+        <!-- Second Box -->
+        <div class="row align-items-center mb-70 flex-row-reverse">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pl-100">
+                <h3>Jeep Safari</h3>
+                <p>Mahabaleshwar and Panchgani are the most popular hill stations in India that attract thousands of visitors every year. And, this open jeep safari tour will help in exploring ...</p>
+                <a href="https://www.thrillophilia.com/tours/open-jeep-safari-tour-of-panchgani" class="more-culture-btn">
+                  <span></span>
+
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img
+                  src="https://images.thrillophilia.com/image/upload/s--GjAzTjfY--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/164/378/original/1563451858_1548231247_MunnarTentCmps_Jeep_safari.JPG.jpg.jpg?1563451858"
+                  class="animate" data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Box End -->
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="tab-content cultures-tab-content" id="camping" name="camping" style="display:none;">
+      <div id="music" class="container tab-pane active">
+
+
+
+        <!-- First Box -->
+        <div class="row align-items-center mb-70">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pr-100">
+                <h3>Camping</h3>
+                <p>Camping in Maharashtra can be done at various sites ranging from the terrain close to nature to the ones in the laps of serenity. Being scattered with iconic attractions, it proves to be West India’s one of the best places to visit
+                  for camping and otherwise. It holds quite a colossal number of camping sites ...</p>
+                <a href="https://www.thrillophilia.com/states/maharashtra/tags/camping" class="more-culture-btn">
+                  <span></span>
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://images.thrillophilia.com/image/upload/s--HfPC3UYc--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/193/906/original/1582730211_Drone_Shoot_2.jpg.jpg?1582730210" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Box End -->
+
+      </div>
+    </div>
+
+
+
+    <div class="tab-content cultures-tab-content" id="calming" name="calming" style="display:none;">
+      <div id="music" class="container tab-pane active">
+
+
+
+        <!-- First Box -->
+        <div class="row align-items-center mb-70">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pr-100">
+                <h3>Cycling</h3>
+                <p>While in Maharashtra it is common for travellers to explore the place by taxis and autos, for a wider perspective of what the state is all about try out cycling along the streets. The best cycling tours in Maharashtra allows you to
+                  indulge in a plethora ...</p>
+                <a href="https://www.thrillophilia.com/states/maharashtra/tags/cycling" class="more-culture-btn">
+                  <span></span>
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://images.thrillophilia.com/image/upload/s--36NLTLrr--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/327/943/original/1594385122_shutterstock_380328256.jpg.jpg?1594385121" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Box End -->
+        <br>
+        <br>
+        <!-- Second Box -->
+        <div class="row align-items-center mb-70 flex-row-reverse">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pl-100">
+                <h3>Boating</h3>
+                <p>There is no better way to truly enjoy Mumbai, then to stay out on a sailboat in the Mumbai harbour. Come and sail in Mumbai along the beautiful Arabian sea coastline...</p>
+                <a href="https://www.thrillophilia.com/states/maharashtra/tags/scuba-diving" class="more-culture-btn">
+                  <span></span>
+
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://images.thrillophilia.com/image/upload/s--Fw2PyLoP--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/220/558/original/1586444581_SEA_RAY_1752.jpg.jpg?1586444581" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Box End -->
+      </div>
+    </div>
+
+
+    <div class="tab-content cultures-tab-content" id="aerial" name="aerial" style="display:none;">
+      <div id="music" class="container tab-pane active">
+
+
+
+        <!-- First Box -->
+        <div class="row align-items-center mb-70">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pr-100">
+                <h3>Paragliding</h3>
+                <p>Maharashtra is a convergence of varying geographical landforms and sea, caves and forts scattered here and there, making paragliding in Maharashtra a coveted attraction for the travellers. As every adventure enthusiast knows,
+                  paragliding is a ...</p>
+                <a href="https://www.thrillophilia.com/states/maharashtra/tags/paragliding" class="more-culture-btn">
+                  <span></span>
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://images.thrillophilia.com/image/upload/s--1c3H_O5u--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/165/158/original/1563967629_3.jpg.jpg?1563967629" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- First Box End -->
+        <br>
+        <br>
+        <!-- Second Box -->
+        <div class="row align-items-center mb-70 flex-row-reverse">
+          <div class="col-sm-6 animate" data-animate="fadeIn" data-duration="2s" data-delay="0.1s">
+            <div class="culture-item">
+              <div class="culture-dtails pl-100">
+                <h3>Hot air ballooning</h3>
+                <p>Take off on an unforgettable flight high in the sky with this hot air balloon safari in Lonavala. It is located in the misty Sahyadris which adds a stunning view to the...</p>
+                <a href="https://www.thrillophilia.com/tours/hot-air-balloon-safari-lonavala" class="more-culture-btn">
+                  <span></span>
+
+                  <p class="hide-txt">More</p>
+                  <p class="hide-txt show-txt">More</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="culture-item">
+              <div class="culture-img">
+                <img src="https://images.thrillophilia.com/image/upload/s--RkF9uWpv--/c_fill,f_auto,fl_strip_profile,g_auto,h_600,q_auto,w_975/v1/images/photos/000/012/689/original/1462343384_SW6.jpg.jpg?1462343383" class="animate"
+                  data-animate="zoomIn" data-duration="2s" data-delay="0.1s" style="height:400px;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Second Box End -->
+      </div>
+    </div>
+
+
+  </section>
+
+<div class="row ">
+    <div class="col-lg-6 ">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GVxAoDZ1Bu5dBcK79AP14kxp3-KlE5R5" width="640" height="480" style="margin:0 100px 95px 95px; "></iframe>
+    </div>
+    <div class="col-lg-6 culture-dtails" style="padding:20px; ">
+      <h3 class="special">Explore the map for various location to experience your desired adventure sport.</h3>
+    </div>
+  </div>
+  <!-- ====================Footer section start====================== -->
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="footer-item">
+          <div class="footer-logo">
+            <img src="footer-logo.png">
+          </div>
+          <h2 class="footer-abo"></h2>
+        </div>
+      </div>
+      <div class="col-sm-9">
+
+
+
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="footer-item">
+
+              <div class="row">
+                <div class="col-sm-12" style="visibility:hidden;">
+                  <ul class="footer-social" style=" margin: 20px; ">
+                    <li><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <div class="address quick-links1">
+
+
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="address quick-links1">
+                    <p><strong>Quick Links</strong></p>
+
+                    <p><a href="explore.php">Explore Destinations</a></p>
+                    <p><a href="adventure.php">Adventure</a></p><br>
+                    <p><a href="culture.php">Culture</a></p>
+                    <p><a href="eventslisting.php">Festivals and Events</a></p>
+                    <p><a href="travel-agents.php">Travel Agents</a></p>
+                    <p><a href="covid-notification.php">COVID-19 Guidelines</a></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="col-sm-7">
+            <div class="footer-item">
+              <div class="row">
+                <div class="col-sm-12" style="visibility:hidden;">
+                  <ul class="footer-social" style=" margin: 20px; ">
+                    <li><a href="https://www.facebook.com/MaharashtraTourism"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com/MaharashtraTourism"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/maharashtratourism/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/maharashtratourism"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <div class="address">
+                    <p><strong>Help & Support</strong></p>
+                    <p>1800-233-7777 (10:00 AM to 7:00 PM)</p>
+                    <p> (Second Saturday, Third Saturday & All Sunday Off)</p>
+                    <p>support@mahartashtratourism.com</p>
+                    <ul class="footer-social">
+                      <li><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-sm-12 ">
+            <p class="copyright"> Maharashtra Tourism Project by Pranjal Raj and Aparna Sahu | <a href="disclaimer.php" style=" text-decoration: none; ">Disclaimer | </a>
+              <a href="privacy-policy.php" style=" text-decoration: none; ">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ====================Footer section end====================== -->
+
+</body>
+
+</html>
+<!-- partial -->

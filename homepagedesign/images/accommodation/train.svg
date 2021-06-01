@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="26px" viewBox="0 0 20 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Metro</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Accomodations" transform="translate(-150.000000, -2245.000000)" stroke="#6B400D" stroke-width="1.76470588">
+            <g id="Metro" transform="translate(151.000000, 2246.000000)">
+                <rect id="Rectangle-path" x="0.528888889" y="3.22058824" width="16.9422222" height="16.5794118" rx="1.87058824"></rect>
+                <polyline id="Shape" fill="#FFC824" fill-rule="nonzero" points="13.7022222 12.7941176 9 12.7941176 9 7.19117647 13.7022222 7.19117647"></polyline>
+                <polyline id="Shape" fill="#FFC824" fill-rule="nonzero" points="4.29777778 7.19117647 9 7.19117647 9 12.7941176 4.29777778 12.7941176"></polyline>
+                <path d="M4.29777778,19.8 L1.91555556,23.8941176" id="Shape"></path>
+                <path d="M13.7022222,19.8 L16.0844444,23.8941176" id="Shape"></path>
+                <path d="M6.17333333,22.9852941 L11.8266667,22.9852941" id="Shape"></path>
+                <path d="M9,0.414705882 C10.5611249,0.414705882 11.8266667,1.6709422 11.8266667,3.22058824 L6.17333333,3.22058824 C6.17333333,1.6709422 7.43887511,0.414705882 9,0.414705882 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

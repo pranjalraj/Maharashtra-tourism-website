@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accomodations" transform="translate(-146.000000, -2330.000000)">
+            <g id="Phone" transform="translate(146.000000, 2331.000000)">
+                <path d="M5.36545455,2.859375 C5.59393939,2.6796875 5.82242424,2.5 6.05878788,2.3359375" id="Shape" stroke="#6B400D" stroke-width="1.58260867" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.85636364,0.5 C11.0052169,0.165721271 12.1966495,-0.00267549199 13.3939394,-8.93384623e-15 C18.9587005,0.00136835182 23.8642439,3.62064337 25.4644349,8.90552582 C27.064626,14.1904083 24.9808587,19.8904918 20.3371528,22.9310532 C15.693447,25.9716146 9.58850632,25.6332552 5.31544085,22.0984919 C1.04237538,18.5637287 -0.387804995,12.6688886 1.79636364,7.59375" id="Shape" stroke="#6B400D" stroke-width="1.58260867" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" fill="#FFC824" fill-rule="nonzero" cx="13.5" cy="12.5" r="8.5"></circle>
+                <g transform="translate(8.000000, 4.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle-4" stroke="#6B400D" fill="#FFFFFF" x="0" y="0.265625" width="10" height="16.46875" rx="1.89000003"></rect>
+                    <path d="M8.94444444,14.875 L1.05555556,14.875 L1.05555556,2.65625 L8.94444444,2.65625 L8.94444444,14.875 Z M1.61904762,14.34375 L8.38095238,14.34375 L8.38095238,3.1875 L1.61904762,3.1875 L1.61904762,14.34375 Z" id="Shape" fill="#6B400D"></path>
+                    <rect id="Rectangle-path" fill="#6B400D" x="4.44444444" y="15.40625" width="1.11111111" height="1"></rect>
+                    <rect id="Rectangle-path" fill="#6B400D" x="3.05555556" y="1.328125" width="1" height="1"></rect>
+                    <rect id="Rectangle-path" fill="#6B400D" x="4.16666667" y="1.328125" width="2.77777778" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

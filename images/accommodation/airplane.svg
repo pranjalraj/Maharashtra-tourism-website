@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Airplane</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accomodations" transform="translate(-147.000000, -2289.000000)">
+            <g id="Airplane" transform="translate(148.000000, 2290.000000)">
+                <polygon id="Shape" fill="#FFC824" fill-rule="nonzero" points="12.5546667 12.5546667 19.8146667 21.89 20.856 20.856 15.1506667 9.966"></polygon>
+                <polygon id="Shape" fill="#FFC824" fill-rule="nonzero" points="9.44533333 9.44533333 0.11 2.18533333 1.15133333 1.15133333 12.034 6.84933333"></polygon>
+                <path d="M6.98133333,18.128 L4.048,18.8613333 C3.79880198,18.9226621 3.53567485,18.8492601 3.35420739,18.6677926 C3.17273994,18.4863251 3.09933786,18.223198 3.16066667,17.974 L3.894,15.0406667 L17.1306667,1.76 C17.8517004,1.03644765 18.8298649,0.627780561 19.8513333,0.623333333 L19.932,0.623333333 C20.7251411,0.622976342 21.3748725,1.2532158 21.3986667,2.046 L21.3986667,2.09733333 C21.4001174,3.1515896 20.9803449,4.16273985 20.2326667,4.906 L6.98133333,18.128 Z" id="Shape" stroke="#6B400D" stroke-width="1.46666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3.872,15.0186667 L5.214,13.6693333 L1.19533333,13.5446667 C0.757344144,13.5082531 0.349103849,13.7692736 0.198357647,14.1821126 C0.0476114458,14.5949516 0.191601495,15.0576164 0.55,15.312 L3.32933333,17.182 L3.872,15.0186667 Z" id="Shape" stroke="#6B400D" stroke-width="1.46666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6.98133333,18.128 L4.818,18.6706667 L6.688,21.45 C6.94238355,21.8083985 7.40504836,21.9523886 7.81788739,21.8016424 C8.23072642,21.6508962 8.49174695,21.2426559 8.45533333,20.8046667 L8.33066667,16.786 L6.98133333,18.128 Z" id="Shape" stroke="#6B400D" stroke-width="1.46666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polygon id="Shape" stroke="#6B400D" stroke-width="1.46666667" stroke-linecap="round" stroke-linejoin="round" points="19.8146667 21.89 12.5546667 12.5546667 17.2186667 7.89066667 21.89 19.8146667"></polygon>
+                <polygon id="Shape" stroke="#6B400D" stroke-width="1.46666667" stroke-linecap="round" stroke-linejoin="round" points="0.11 2.18533333 9.44533333 9.44533333 14.1093333 4.78133333 2.18533333 0.11"></polygon>
+                <path d="M17.3946667,18.7806667 L16.3606667,19.8146667" id="Shape" stroke="#6B400D" stroke-width="1.46666667" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.9673333,15.6786667 L13.9333333,16.7126667" id="Shape" stroke="#6B400D" stroke-width="1.46666667" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3.21933333,4.60533333 L2.18533333,5.63933333" id="Shape" stroke="#6B400D" stroke-width="1.46666667" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6.32133333,7.03266667 L5.28733333,8.06666667" id="Shape" stroke="#6B400D" stroke-width="1.46666667" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M19.6606667,2.86 L19.14,2.33933333 C18.8539725,2.0550027 18.3920275,2.0550027 18.106,2.33933333 C17.9671707,2.47702884 17.8890812,2.66446581 17.8890812,2.86 C17.8890812,3.05553419 17.9671707,3.24297116 18.106,3.38066667 L18.6193333,3.894 C18.9048646,4.18155623 19.3694437,4.18319784 19.657,3.89766663 C19.9445562,3.61213543 19.9461979,3.14755627 19.6606667,2.86 Z" id="Shape" fill="#FFC824" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

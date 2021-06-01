@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="33px" viewBox="0 0 36 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Local Guide Directory</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Destinations-Page" transform="translate(-419.000000, -4164.000000)" stroke="#FFFFFF" stroke-width="2.09999996">
+            <g id="BOX2" transform="translate(395.000000, 4140.000000)">
+                <g id="News" transform="translate(25.000000, 26.000000)">
+                    <g id="Local-Guide-Directory">
+                        <polyline id="Shape" points="0.346938776 24.4428571 0.346938776 0 24.4938776 0 24.4938776 24.4428571"></polyline>
+                        <path d="M24.4938776,21.052619 L33.6530612,21.052619 L33.6530612,24.4428571 C33.6530612,26.9596976 31.6027081,29 29.0734694,29 C26.5442307,29 24.4938776,26.9596976 24.4938776,24.4428571" id="Shape"></path>
+                        <path d="M29.0734694,29 L4.92653061,29 C2.39729188,29 0.346938776,26.9596976 0.346938776,24.4428571" id="Shape"></path>
+                        <path d="M5.34285714,15.7428571 L19.4979592,15.7428571" id="Shape"></path>
+                        <path d="M5.34285714,21.5428571 L19.4979592,21.5428571" id="Shape"></path>
+                        <rect id="Rectangle-path" x="5.34285714" y="5.8" width="14.155102" height="4.14285714"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
